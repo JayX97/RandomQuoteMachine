@@ -1,8 +1,7 @@
+import quotesData from "./quotes.json"
+
 const QuoteBox = () => {
-    const quote = {
-        quote: 'something',
-        author: 'Jason'
-    }
+    const quote = quotesData.quotes[0];
 
     return (
         <div id="quote-box">
