@@ -17,7 +17,7 @@ function App() {
     <div id="wrapper">
       <QuoteBox quote={quote} randomQuote={randomQuote} />
       <div className="footer">
-        <p>by <a id="author-link" href="https://github.com/JayX97">JayX97</a></p>
+        <p>by <a id="author-link" href="https://github.com/JayX97" target="_blank">JayX97</a></p>
       </div>
     </div>
   );
