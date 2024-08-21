@@ -6,7 +6,7 @@ const QuoteBox = (props) => {
     const randomQuote = props.randomQuote;
 
     return (
-        <div id="quote-box">
+        <div id="quote-box" className="card">
             <div className="quote-text">
                 <span id="text">{quote.quote}</span>
             </div>
@@ -14,8 +14,8 @@ const QuoteBox = (props) => {
                 <span id="author">- {quote.author}</span>
             </div>
             <div className="buttons">
-                <a id="tweet-quote" href="twitter.com/intent/tweet" target="_blank">Tweet</a>
-                <button id="new-quote" onClick={randomQuote}>New Quote</button>
+                <a id="tweet-quote" className="btn btn-secondary" href="twitter.com/intent/tweet" target="_blank">Tweet</a>
+                <button id="new-quote" className="btn btn-secondary" onClick={randomQuote}>New Quote</button>
             </div>
         </div>
     );
