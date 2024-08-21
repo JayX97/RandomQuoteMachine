@@ -1,3 +1,5 @@
+import "./../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
 const QuoteBox = (props) => {
     //const quote = quotesData.quotes[0];
     const quote = props.quote;

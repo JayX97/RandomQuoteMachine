@@ -2,6 +2,7 @@ import QuoteBox from './QuoteBox';
 import './App.css';
 import { useState } from 'react';
 import quotesData from "./quotes.json";
+import "./../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   const numPos = Math.floor(Math.random() * Object.keys(quotesData.quotes).length);
